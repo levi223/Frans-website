@@ -1,0 +1,96 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #474747;
+}
+
+
+.album-title-block {
+    width: 100%;
+    height: 30%;
+    background-position: center;
+    box-shadow: 1px 1px 5px 2px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #a2a2a2;
+    font-family: broadway;
+    font-size: 2em;
+    text-shadow: 2px 2px 2px black;
+    
+    
+}
+
+.song-block{
+    
+    display: flex;
+    height: 80%;
+    width: 100%;
+    background-color: #474747;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: center;
+    margin:auto;
+    margin-top: 50px;
+    
+}
+
+.songs {
+    width: 70%;
+    text-align: center;
+     
+    background-image: url(../img/music/album-1-wall.jpg);
+   background-position: center;
+    background: auto;
+    border-radius: 10px;
+    margin-right: 90px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+      
+}
+
+.album-cover {
+    width: 30%;
+    height: auto;
+   
+    
+    
+}
+
+h3 {
+    color: #a2a2a2;
+    
+}
+
+a   {
+    text-decoration: none;
+    color: #a2a2a2;
+    
+}
+
+@media screen and (max-width: 1300px) {
+    .ablum-cover {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+    
+    .songs {
+        width: 100%;
+        
+    
+        
+    }
+}
+
+
+
+

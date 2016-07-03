@@ -1,0 +1,75 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 100vh;
+    width: 100%;
+    
+}
+
+.flex-direction{
+    display: flex;
+    flex-direction: column; 
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.album {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: broadway;
+    color: #E2E2E2;
+    text-shadow: 1px 1px 1px black;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.album-1 {
+    background-image: url(../img/music/album-3-wall.jpg);
+    
+    
+    
+}
+
+.album-2 {
+    background-image: url(../img/music/album-2-wall.jpg);
+   
+    
+}
+
+.album-3 {
+    background-image: url(../img/music/album-1-wall.jpg);
+   
+    
+}
+
+a {
+    color: #A2A2A2;
+    transition:all, .2s , ease-in;
+    
+}
+
+a:hover {
+    color: #474747;
+    text-decoration: none;
+    
+}
+
+@media screen and (max-width:779px) {
+    
+    .content {
+        flex-direction: column;
+    }
+    
+    
+
+    
+    
+}

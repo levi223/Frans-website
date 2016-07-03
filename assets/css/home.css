@@ -1,0 +1,67 @@
+body {
+    background-image: url(../img/body/DSC_0045.JPG);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    
+    
+}
+
+.content {
+   display: inline-block;
+   text-align: center;
+    margin-left: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+}
+
+.content .welcome-logo {
+    height: 20vh;
+    margin-top: 5vh;
+   
+    
+    
+}
+
+.welcome-logo path {
+    fill:#white;
+    
+}
+
+
+p {
+    color: #E6E6E6;
+    font-family: serif;
+    font-size: 30px;
+    
+    
+}
+
+
+h1 {
+    color:white;
+    font-family: Broadway;
+    
+}
+
+hr {
+    border: 2px solid white;
+    border-radius: 10px;
+    
+}
+
+#hr-primary {
+    width: 40%;
+    
+    
+}
+
+#hr-secondairy {
+    width: 20%;
+    
+}
+
